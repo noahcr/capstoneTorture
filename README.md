@@ -2,6 +2,15 @@
 Out of the millions that seek out asylum in the United States, thousands are victims of torture. These are a few of them.
 
 TEAM NOTES:
+JOSEPH-
+For the function of calculating a distance between lat and long, I found this: http://stackoverflow.com/questions/2637023/how-to-calculate-the-latlng-of-a-point-a-certain-distance-away-from-another
+
+In order to use this, you have to navigate thorugh Google maps functions. Here is the website: https://developers.google.com/maps/documentation/distance-matrix/intro#RequestParameters
+
+There's quite a few steps we have to do to get just the map ready, I don't know if we need to download the map code, I just want to make sure we can utilize Google Maps. I've created an API Key for the distance calculator below:
+API Key for Google: AIzaSyBbqJt2SBlf3sYJEqCUAMEBP1iXSRiR3wM
+
+NOAH-
 Here’s the step by step info/process on getting asylum in the U.S. under the UN Convention Against Torture. But first I’ve listed a few things that I think should be the main takeaways, part of the context and lead-in we give for the piece—there are a couple questionable/fucked up things that we should emphasize before showing the step by step process:
 
 There is no formal way to apply specifically for asylum under the UN Convention Against Torture—you apply like all other asylum seekers, in the same pool. This means you are funneled into the big queue, which is years long.
