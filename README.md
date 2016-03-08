@@ -10,6 +10,9 @@ In order to use this, you have to navigate thorugh Google maps functions. Here i
 There's quite a few steps we have to do to get just the map ready, I don't know if we need to download the map code, I just want to make sure we can utilize Google Maps. I've created an API Key for the distance calculator below:
 API Key for Google: AIzaSyBbqJt2SBlf3sYJEqCUAMEBP1iXSRiR3wM
 
+This could be a reference on how to read and write the zip code csv file:
+http://stackoverflow.com/questions/23584373/using-a-scanner-to-read-and-write-data-points-to-from-a-csv-file-in-java
+
 NOAH-
 Here’s the step by step info/process on getting asylum in the U.S. under the UN Convention Against Torture. But first I’ve listed a few things that I think should be the main takeaways, part of the context and lead-in we give for the piece—there are a couple questionable/fucked up things that we should emphasize before showing the step by step process:
 
