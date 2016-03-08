@@ -11,9 +11,11 @@ There's quite a few steps we have to do to get just the map ready, I don't know 
 API Key for Google: AIzaSyCQM6UpIzl7-re_5UL4gtbJJH-VtcwAJac
 
 STRING MATCH (I assume we'll need to put the zip codes in a string?):
+
 https://docs.oracle.com/javase/tutorial/java/data/comparestrings.html
 
 This could be a reference on how to read and write the zip code csv file:
+
 http://stackoverflow.com/questions/23584373/using-a-scanner-to-read-and-write-data-points-to-from-a-csv-file-in-java
 
 NOAH-
