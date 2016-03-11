@@ -3,26 +3,18 @@ Out of the millions that seek out asylum in the United States, thousands are vic
 
 TEAM NOTES:
 JOSEPH-
-For the function of calculating a distance between lat and long, I found this: http://stackoverflow.com/questions/2637023/how-to-calculate-the-latlng-of-a-point-a-certain-distance-away-from-another
+Decided to do the whole function in JQUERY, just makes more sense. I uploaded and merged everything through CartoDB -- there was no way that the whole zip code data sets could've been done through cvs files -- it would've bvroken the interwebz. 
 
-In order to use this, you have to navigate thorugh Google maps functions. Here is the website: https://developers.google.com/maps/documentation/distance-matrix/intro#RequestParameters
+Also, the distance function was calculated by a function borrowed through a website:
 
-There's quite a few steps we have to do to get just the map ready, I don't know if we need to download the map code, I just want to make sure we can utilize Google Maps. I've created an API Key for the distance calculator below:
-<<<<<<< HEAD
-API Key for Google: AIzaSyCQM6UpIzl7-re_5UL4gtbJJH-VtcwAJac
+the functionality is as follows:
 
-STRING MATCH (I assume we'll need to put the zip codes in a string?):
+	(ST_Distance(ST_POINT(a.lng::float,a.lat::float)::geography, ST_POINT(b.lng::float, b.lat::float)::geography) / 1609.34)
 
-https://docs.oracle.com/javase/tutorial/java/data/comparestrings.html
+Translation -- distance is claculated by finding the first lat/long numbers, find the second lat and long points, put those into a map and find the radius based on the earth's diameter, then divide that by 1609.34 because the function displays it in meters. 
 
-This could be a reference on how to read and write the zip code csv file:
+3/10/2016 - Last excel file to go is Newark (adding in diff cities from NY) and NYC (adding in the specific boroughs and cities)
 
-=======
-API Key for Google: AIzaSyBbqJt2SBlf3sYJEqCUAMEBP1iXSRiR3wM
-
-This could be a reference on how to read and write the zip code csv file:
->>>>>>> 6ed6e98a389b95ac086847206ba33c2b54aa8e71
-http://stackoverflow.com/questions/23584373/using-a-scanner-to-read-and-write-data-points-to-from-a-csv-file-in-java
 
 NOAH-
 Here’s the step by step info/process on getting asylum in the U.S. under the UN Convention Against Torture. But first I’ve listed a few things that I think should be the main takeaways, part of the context and lead-in we give for the piece—there are a couple questionable/fucked up things that we should emphasize before showing the step by step process:
