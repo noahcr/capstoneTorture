@@ -8,7 +8,7 @@ var lookup = function(zip) {
             user: 'josephjaafari'
         });
 
-    sql.execute("SELECT a.display_name, a.wait_time, b.zip, a.lat as uscis_lat, a.lng as uscis_lng, (ST_Distance(ST_POINT(a.lng::float,a.lat::float)::geography, ST_POINT(b.lng::float, b.lat::float)::geography) / 1609.34) as distance FROM uscis_locations a JOIN uscis_data b ON a.id = b.uscis_id WHERE zip = {{zip}}", {
+        sql.execute("SELECT a.display_name, b.zip, a.lat as uscis_lat, a.lng as uscis_lng, (ST_Distance(ST_POINT(a.lng::float,a.lat::float)::geography,ST_POINT(b.lng::float, b.lat::float)::geography) / 1609.34) as distance FROM uscis_locations a JOIN uscis_data_1 b ON a.id = b.uscis_id WHERE zip = {{zip}}", {
             zip: zip
         })
             .done(function(data) {
