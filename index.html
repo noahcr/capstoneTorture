@@ -12,21 +12,12 @@
 	<button id="calc">Calculate</button>
 	<div id="closestLocation"></div>
 	<div id="waitTime"></div>
+  <div id="distance"></div>
 	<div id="map"></div>
-		  <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
-    </script>
 
-
-<script scr="torture.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQM6UpIzl7-re_5UL4gtbJJH-VtcwAJac&callback=initMap"
-    async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script src="torture.js"></script>
 </body>
 </html>
 
