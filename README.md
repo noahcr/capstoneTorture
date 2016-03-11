@@ -8,6 +8,7 @@ For the function of calculating a distance between lat and long, I found this: h
 In order to use this, you have to navigate thorugh Google maps functions. Here is the website: https://developers.google.com/maps/documentation/distance-matrix/intro#RequestParameters
 
 There's quite a few steps we have to do to get just the map ready, I don't know if we need to download the map code, I just want to make sure we can utilize Google Maps. I've created an API Key for the distance calculator below:
+<<<<<<< HEAD
 API Key for Google: AIzaSyCQM6UpIzl7-re_5UL4gtbJJH-VtcwAJac
 
 STRING MATCH (I assume we'll need to put the zip codes in a string?):
@@ -16,6 +17,11 @@ https://docs.oracle.com/javase/tutorial/java/data/comparestrings.html
 
 This could be a reference on how to read and write the zip code csv file:
 
+=======
+API Key for Google: AIzaSyBbqJt2SBlf3sYJEqCUAMEBP1iXSRiR3wM
+
+This could be a reference on how to read and write the zip code csv file:
+>>>>>>> 6ed6e98a389b95ac086847206ba33c2b54aa8e71
 http://stackoverflow.com/questions/23584373/using-a-scanner-to-read-and-write-data-points-to-from-a-csv-file-in-java
 
 NOAH-

@@ -20,3 +20,4 @@ document.getElementById('calc').onclick = function(){
 
 document.getElementById('waitTime').innerText += wait
  }
+
