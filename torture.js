@@ -14,7 +14,7 @@ var lookup = function(zip) {
             .done(function(data) {
                 var results = data.rows[0]
                 $("#closestLocation").html(results.display_name);
-                $("#waitTime").html(results.wait_time + " years");
+                $("#waitTime").html(results.wait_time_years + " years and " + results.wait_time_months + " months");
                 $("#distance").html(parseInt(results.distance) + " miles");
             })
             .error(function(errors) {
