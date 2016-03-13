@@ -5,19 +5,87 @@
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="torture.css">
+
+    <img src="Header4.svg" alt="header">
+
 </head>
 
+
+
+
+
 <body>
-	<input id="zipCode" type="number">Type in Zip Code</input>
+
+<h1>Part One: The Asylum Backlog and Years of Waiting</h1>
+
+<hr class="subHeadline">
+
+<div id="bylines">By Joseph Jaafari, Lisa Thomson, and Noah Caldwell</div>
+
+<br>
+
+
+<div id="text">
+	<p>When an individual submits a request for asylum in the US they dive headfirst into a bureaucratic process that should only take 180 days. But, as the number of asylum seekers increases and resources for the immigration system stagnate the process now takes between 2- 5 years.</p>
+
+	<p></p>  
+ 
+	<p>The critical stage of the asylum process is the Asylum Interview. The interview is held at one of eight locations around the country with an assigned asylum officer. In the interview the officer evaluates your identity, the story you’re presenting for why you should be granted asylum and any evidence you have in support of your claim. And this is the stage, scheduling interviews, where the backlog occurs.</p>
+
+	<p></p>  
+
+ 	<p>“This isn’t because the asylum officers or the immigration judges aren’t working hard, they’re working super hard, but they’ve got so many cases and they’re understaffed and they’re under resourced and congress hasn’t funded more employees, ” said Maryellen Fullerton, a law professor at Brooklyn Law School.</p>
+ 
+ 	<p></p>  
+ 
+	<p>Fullerton says the backlog is a problem for both the asylum seekers, whose lives end up in limbo, and for the government, which can’t deport asylum seekers who don’t meet the requirements until a decision has been made.</p>
+
+</p>
+
+
+<hr class="subHeadline">
+
+</div>
+
+<p id="calculatorHead">How Long Would You Have to Wait?</p>
+<p id="calculatorIntro">The waiting period for asylum seekers to get an interview varies massively depending on where they happen to be living - and the office could end up being hundreds of miles away. How long would you have to wait? And how far would you have to go?</p>
+<div id="asylumCalculator">
+	<p id="prompt">Type your zip code:</p>
+	<input id="zipCode" type="number"></input>
 	<button id="calc">Calculate</button>
 	<div id="closestLocation"></div>
 	<div id="waitTime"></div>
   <div id="distance"></div>
 	<div id="map"></div>
 
+	<br>
+
+</div>
+<br>
+<hr class="subHeadline">
+
+<div id="text">
+	<p>But while securing an interview is important, actually making a credible case for yourself in your interview is what’s critical for asylum seekers because how things come together in this interview determines whether or not that 2-5 year wait will result in future in the US or deportation.</p>
+ 
+	<p>What an asylum seeker is doing is alleging, while in the US, that they are a refugee and so are entitled to the same rights as refugees. But, in order to gain these rights they first need to prove they have a well founded fear of persecution. The interview is the chance to state their case for why they have this fear, and leading up to the interview is when they need to assemble all the pieces.</p>
+ 
+	<p>“Gathering evidence from a far away place in a different culture and a different legal system is always hard and even harder in these circumstances because the opportunity to leave has come in a hurry,” said Fullerton. “When they see opportunity they have to move quickly and it’s hard to have documentary evidence of those kinds of horrible deeds, whoever does them governments or other people tend not to leave written records of them.  So it’s hard to get access to that information and present it and to make sure if you do have it you’re able to preserve it throughout your journey,” she said.</p>
+ 
+	<p>To overcome this challenge of obtaining evidence, Physicians for Human Rights, a network of over 500 clinicians across the country, provides physical, psychological and psychiatric evaluations of asylum seekers that are used as part of their testimony.</p>
+ 
+	<p>“The burden is on that individual to show that they meet the requirements, that they meet the legal standard,” said Meredith Fortin, asylum program officer at Physicians for Human Rights. Fortin says that while it’s legally possible for an applicant to demonstrate their eligibility through their own testimony alone, supporting evidence is often critical.</p>
+ 
+	<p>Fortin says that during a medical evaluation a clinician will try to determine how any evidence, such as scars, on a person’s body maps onto their story of how the scar was received.</p>
+ 
+	<p>She says the psychological or psychiatric evaluations can also be very helpful in determining how trauma can impact an asylum seekers ability to report their experience.</p>
+ 
+	<p>“Trauma can impact memory, that’s very common, and that could be the type of thing that can be very challenging in  court, but if the evaluator feels based on their opinion and their evaluation which  often lasts several hours with the individual some of what’s happening is memory  problems related to the trauma, that can be very important to the fact finder to know and it’s another piece of information for them to take in when they’re considering the entire picture of an individual’s testimony and credibility and story and how well it’s corroborated by the evidence,” said Fortin.</p>
+
+
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
 <script src="torture.js"></script>
 </body>
 </html>
-
